@@ -1,0 +1,4 @@
+data/
+k8s/*-secret.yaml
+.DS_Store
+*.log
