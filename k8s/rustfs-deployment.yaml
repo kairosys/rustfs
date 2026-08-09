@@ -41,6 +41,8 @@ spec:
             - secretRef:
                 name: rustfs-secret
           env:
+            - name: TZ
+              value: "Asia/Hong_Kong"
             - name: RUSTFS_ADDRESS
               value: "0.0.0.0:9000"
             - name: RUSTFS_SERVER_DOMAINS

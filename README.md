@@ -114,6 +114,7 @@ graph LR
 
 | Variable | Description | Default / Value |
 |---|---|---|
+| `TZ` | Container timezone | `Asia/Hong_Kong` |
 | `RUSTFS_ADDRESS` | Listen address for the S3 API | `0.0.0.0:9000` |
 | `RUSTFS_SERVER_DOMAINS` | Accepted server hostnames | `s3.localhost,rustfs,rustfs.default.svc.cluster.local` |
 | `RUSTFS_ACCESS_KEY` | S3 access key | From `rustfs-secret` (via `envFrom`) |
