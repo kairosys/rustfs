@@ -49,10 +49,10 @@ spec:
               value: "s3.localhost,rustfs,rustfs.default.svc.cluster.local"
           resources:
             requests:
-              memory: "64Mi"
+              memory: "256Mi"
               cpu: "50m"
             limits:
-              memory: "256Mi"
+              memory: "512Gi"
               cpu: "500m"
           volumeMounts:
             - name: rustfs-data

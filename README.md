@@ -124,7 +124,7 @@ graph LR
 
 | Resource | Request | Limit |
 |---|---|---|
-| Memory | 64 Mi | 256 Mi |
+| Memory | 256 Mi | 512 Gi |
 | CPU | 50 m | 500 m |
 
 ## Project Structure
